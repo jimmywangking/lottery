@@ -810,7 +810,7 @@ function reset() {
 }
 
 function createHighlight() {
-  let year = new Date().getFullYear() + "";
+  let year = new Date().getFullYear() + "1";
   let step = 4,
     xoffset = 1,
     yoffset = 1,
