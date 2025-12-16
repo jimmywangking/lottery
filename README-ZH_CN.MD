@@ -47,8 +47,10 @@ npm install
 cd ../product
 npm install
 
+# 构建项目
+NODE_OPTIONS=--openssl-legacy-provider npm run build
 # 打包
-npm run build
+# npm run build
 
 # 运行
 npm run serve
@@ -145,7 +147,7 @@ const EACH_COUNT = [1, 1, 5];
 该标识用于显示在抽奖卡片上。
 
 ```js
-const COMPANY = "MoShang";
+const COMPANY = "JLU";
 ```
 
 
