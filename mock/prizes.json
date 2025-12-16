@@ -1,0 +1,37 @@
+[
+  {
+    "type": 1,
+    "count": 2,
+    "text": "特等奖",
+    "title": "iPhone 15 Pro",
+    "imgUrl": "/lottery/assets/img/prize1.png"
+  },
+  {
+    "type": 2,
+    "count": 8,
+    "text": "一等奖",
+    "title": "AirPods Pro 2",
+    "imgUrl": "/lottery/assets/img/prize2.png"
+  },
+  {
+    "type": 3,
+    "count": 15,
+    "text": "二等奖",
+    "title": "Apple Watch SE",
+    "imgUrl": "/lottery/assets/img/prize3.png"
+  },
+  {
+    "type": 4,
+    "count": 25,
+    "text": "三等奖",
+    "title": "京东卡 100 元",
+    "imgUrl": "/lottery/assets/img/prize4.png"
+  },
+  {
+    "type": 5,
+    "count": 50,
+    "text": "参与奖",
+    "title": "定制马克杯",
+    "imgUrl": "/lottery/assets/img/prize5.png"
+  }
+]
