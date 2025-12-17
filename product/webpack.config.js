@@ -8,7 +8,8 @@ module.exports = {
   entry: path.join(__dirname, "/src/lottery/index.js"),
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "lottery.js"
+    filename: "lottery.js",
+    publicPath: '/lottery/'  // 对应仓库名
   },
   module: {
     rules: [

@@ -63,7 +63,7 @@ initAll();
  * 初始化所有DOM
  */
 function initAll() {
-  window.AJAX({
+/**   window.AJAX({
     url: "/getTempData",
     success(data) {
       // 获取基础数据
@@ -111,6 +111,38 @@ function initAll() {
       shineCard();
     }
   });
+*/
+
+  // 原代码：通过AJAX获取数据
+  // window.AJAX({ url: "/getTempData", success(data) { ... } });
+  // window.AJAX({ url: "/getUsers", success(data) { ... } });
+
+  // 替换为模拟数据
+  const mockUsers = [
+    ["001", "张三", "技术部"],
+    ["002", "李四", "产品部"],
+    // 更多测试用户...
+  ];
+  const mockPrizes = [
+    { type: 1, count: 2, text: "特等奖", title: "神秘大礼" },
+    // 更多奖品配置...
+  ];
+
+  // 初始化数据（替代AJAX回调）
+  function initMockData() {
+    prizes = mockPrizes;
+    basicData.users = mockUsers;
+    basicData.leftUsers = mockUsers;
+    basicData.luckyUsers = {};
+    // 后续初始化逻辑...
+    initCards();
+    animate();
+    shineCard();
+  }
+
+  initMockData(); // 启动时加载模拟数据
+
+
 }
 
 function initCards() {
